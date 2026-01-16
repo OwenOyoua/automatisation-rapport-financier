@@ -1,0 +1,52 @@
+test3
+
+## 🔹 Test 1 – Création d’entreprise avec immobilisations et capital
+
+| Code Compte | Libellé                | Classe | Sens   | Montant |
+|-------------|------------------------|--------|--------|---------|
+| 1111        | Capital social         | 1      | CREDIT | 200000  |
+| 1140        | Réserves               | 1      | CREDIT | 30000   |
+| 2111        | Frais de constitution  | 2      | DEBIT  | 10000   |
+| 232         | Constructions          | 2      | DEBIT  | 120000  |
+| 2340        | Matériel de transport  | 2      | DEBIT  | 40000   |
+| 3111        | Stocks de marchandises | 3      | DEBIT  | 25000   |
+| 3421        | Clients                | 4      | DEBIT  | 15000   |
+| 4411        | Fournisseurs           | 4      | CREDIT | 30000   |
+| 5141        | Banque                 | 5      | DEBIT  | 50000   |
+
+
+---
+
+## 🔹 Test 2 – Exploitation courante avec charges et produits
+
+| Code Compte | Libellé                  | Classe | Sens   | Montant |
+|-------------|--------------------------|--------|--------|---------|
+| 1111        | Capital social           | 1      | CREDIT | 150000  |
+| 2113        | Frais d’augmentation cap | 2      | DEBIT  | 8000    |
+| 3112        | Matières premières       | 3      | DEBIT  | 20000   |
+| 3421        | Clients                  | 4      | DEBIT  | 18000   |
+| 4411        | Fournisseurs             | 4      | CREDIT | 22000   |
+| 5141        | Banque                   | 5      | DEBIT  | 30000   |
+| 5514        | Caisse                   | 5      | DEBIT  | 5000    |
+| 611         | Achats de marchandises   | 6      | DEBIT  | 25000   |
+| 617         | Charges de personnel     | 6      | DEBIT  | 40000   |
+| 711         | Ventes de marchandises   | 7      | CREDIT | 60000   |
+
+
+---
+
+## 🔹 Test 3 – Situation de trésorerie mixte (banque en découvert)
+
+| Code Compte | Libellé                  | Classe | Sens   | Montant |
+|-------------|--------------------------|--------|--------|---------|
+| 1111        | Capital social           | 1      | CREDIT | 120000  |
+| 1151        | Réserves légales         | 1      | CREDIT | 10000   |
+| 231         | Terrains                 | 2      | DEBIT  | 60000   |
+| 233         | Installations techniques | 2      | DEBIT  | 40000   |
+| 3114        | Stocks de produits finis | 3      | DEBIT  | 15000   |
+| 3424        | Clients douteux          | 3      | DEBIT  | 5000    |
+| 4415        | Fournisseurs effets à pa | 4      | CREDIT | 12000   |
+| 445         | État créditeur           | 4      | CREDIT | 8000    |
+| 5141        | Banque                   | 5      | CREDIT | 10000   |
+| 5514        | Caisse                   | 5      | DEBIT  | 2000    |
+
